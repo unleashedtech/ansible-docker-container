@@ -11,6 +11,7 @@ RUN \
  apk add --no-cache \
    ansible \
    openssh-client \
+   sshpass \
    git \
    bash
 
