@@ -8,10 +8,10 @@ RUN mkdir ~/.ssh && \
     echo "StrictHostKeyChecking no" >> ~/.ssh/config
 
 RUN \
-# apk add installs the following
  apk add --no-cache \
    ansible \
    openssh-client \
+   git \
    bash
 
 # Makes a directory for playbook
